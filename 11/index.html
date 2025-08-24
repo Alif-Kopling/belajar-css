@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latihan Box Model Versi 2</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 1em;
+      background: linear-gradient(135deg, #f0f4ff, #e6f0ff); /* ✅ background gradasi biar lebih fresh */
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2em;
+    }
+
+    header h1 {
+      color: navy;
+      margin-bottom: 0.3em;
+    }
+
+    .button-cta {
+      display: inline-block;
+      margin: 0.5em;
+      padding: 0.6em 1.2em;
+      border-radius: 0.5em;
+      border: none;
+      background: navy;
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .button-cta:hover {
+      background: royalblue;
+      cursor: pointer;
+      transform: scale(1.05);
+    }
+
+    article {
+      background: white;
+      border-radius: 0.8em;
+      padding: 1.2em;
+      margin-bottom: 1.5em;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* ✅ shadow biar lebih hidup */
+    }
+
+    .action-buttons {
+      margin-top: 1.2em;
+    }
+
+    .action-buttons button {
+      display: inline-block;
+      margin-right: 0.8em;
+      padding: 0.5em 1em;
+      border-radius: 0.5em;
+      border: 1px solid #ccc;
+      background: #f9f9f9;
+      transition: 0.3s;
+    }
+
+    .action-buttons button:hover {
+      background: #ececec;
+      cursor: pointer;
+    }
+
+    footer {
+      font-size: 0.9em;
+      margin-top: 3em;
+      text-align: center;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+  
+  <header>
+    <h1>Simple Blog </h1>
+    <p>versi upgrade dari latihan box model</p>
+
+    <div>
+      <button class="button-cta">Login</button>
+      <button class="button-cta">Register</button>
+    </div>
+  </header>
+
+  <article>
+    <p>Box model bukan cuma teori, tapi fondasi penting buat bikin layout web rapi, terstruktur, dan nyaman dilihat. Dengan ini, kita bisa atur padding, border, dan margin dengan lebih presisi.</p>
+    
+    <div class="action-buttons">
+      <button>👍 Like</button>
+      <button>🗨️ Comment</button>
+      <button>🔗 Share</button>
+    </div>
+  </article>
+
+  <article>
+    <p>Pemahaman box model bikin kita gampang nge-layout elemen web, biar keliatan lebih profesional. Ibaratnya, ini basic yang wajib dikuasai sebelum main desain keren-keren.</p>
+    
+    <div class="action-buttons">
+      <button>👍 Like</button>
+      <button>🗨️ Comment</button>
+      <button>🔗 Share</button>
+    </div>
+  </article>
+
+  <footer>
+    &copy; 2025 Alip Kopling 🚀
+  </footer>
+
+</body>
+</html>
